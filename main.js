@@ -26,7 +26,7 @@ function getPoses(results) {
     if (results.length > 0) {
         console.log(results);
         nose_x = results[0].pose.nose.x - 40;
-        nose_y = results[0].pose.nose.y + 17;
+        nose_y = results[0].pose.nose.y + 13;
         console.log("nose' x position is " + nose_x);
         console.log("nose' y position is " + nose_y)
     }
